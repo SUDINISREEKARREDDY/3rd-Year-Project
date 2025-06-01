@@ -1,0 +1,14 @@
+Transcription
+
+Basically this project is about personalized cancer diagnosis using machine learning. In this project we detect the cancer in diagnosis. Alongside me, my batchmates are Ananth dev, Srikar Reddy and Ajay.
+So this is the system architecture:
+1. From the dataset of stage 1 to stage 4 of cancer diseases, we pre-process the data.
+2. Then data analysis.
+3. From data analysis, we split the data to train and test like as 70-30.
+4. From the test datasets, we train the models to predict the classes.
+5. From the training datasets, we use machine learning algorithms like random forest and logistic regression to predict the output.
+So let's go to the code. This is all the structure of my project. So this is the back-end. In back-end, you can see this app.py. And in front-end, we can see in src folders, components and all the js files.
+Okay, let's split the terminals to run the code. Okay, let's access the front-end. In the front-end, we have to run the npm space start. So we have to run the front-end and back-end parallelly.
+Okay, we can see everything is running properly and compiled successfully. Let's go to the output from localhost. So this is our main page. We can see here, we can predict which stage you are getting cancer and treatment plan. If we take some test reports, we can give you sample data. So this is the output. From this sample data, we are getting the stage 2 of cancer. And the random forest accuracy is 92 and logistic regression accuracy is 85.
+So for this, we need to get treatment. So we have to go to this. And after detecting cancer, we have to go for some test and we will know how long our tumor size is. So suppose it is 1 centimeter. So this is the radiation therapy which needs to take off 23 units.
+So thank you.
